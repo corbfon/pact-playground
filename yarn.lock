@@ -218,6 +218,10 @@
     "@pact-foundation/pact-provider-verifier-linux-x64" "1.4.3"
     "@pact-foundation/pact-provider-verifier-win32" "1.4.3"
 
+"@pact-foundation/pact-web@^5.9.1":
+  version "5.9.1"
+  resolved "https://registry.yarnpkg.com/@pact-foundation/pact-web/-/pact-web-5.9.1.tgz#3203d94c67a746ab1abc076bc6e0fddfd9047172"
+
 "@types/jasmine@2.5.38":
   version "2.5.38"
   resolved "https://registry.yarnpkg.com/@types/jasmine/-/jasmine-2.5.38.tgz#a4379124c4921d4e21de54ec74669c9e9b356717"
