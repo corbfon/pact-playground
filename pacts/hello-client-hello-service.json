@@ -1,0 +1,30 @@
+{
+  "consumer": {
+    "name": "hello-client"
+  },
+  "provider": {
+    "name": "hello-service"
+  },
+  "interactions": [
+    {
+      "description": "a request for say hello",
+      "request": {
+        "method": "GET",
+        "path": "/hello-service/api",
+        "query": "name=Chris"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": "Hello Chris!"
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}
